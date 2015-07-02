@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDB4BAC61B453901003A13F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB4BAC31B453901003A13F4 /* Default-568h@2x.png */; };
+		DDB4BAC71B453901003A13F4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB4BAC41B453901003A13F4 /* Default.png */; };
+		DDB4BAC81B453901003A13F4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB4BAC51B453901003A13F4 /* Default@2x.png */; };
 		FA6F425B15307FFA00E98B14 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6F425815307F6600E98B14 /* VideoCell.m */; };
 		FA6F425C1530808C00E98B14 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6F425915307F6600E98B14 /* VideoCell.xib */; };
 		FA6F42641530A97200E98B14 /* AsyncDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6F42631530A97200E98B14 /* AsyncDownloader.m */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DDB4BAC31B453901003A13F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DDB4BAC41B453901003A13F4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DDB4BAC51B453901003A13F4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FA6F425715307F6600E98B14 /* VideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
 		FA6F425815307F6600E98B14 /* VideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
 		FA6F425915307F6600E98B14 /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
@@ -74,6 +80,9 @@
 		FAB6A83A152E560E00BEAA42 = {
 			isa = PBXGroup;
 			children = (
+				DDB4BAC31B453901003A13F4 /* Default-568h@2x.png */,
+				DDB4BAC41B453901003A13F4 /* Default.png */,
+				DDB4BAC51B453901003A13F4 /* Default@2x.png */,
 				FADC81CC1606789800F7DCBD /* Icon.png */,
 				FADC81C91606788F00F7DCBD /* Icon@2x.png */,
 				FAB6A84F152E560F00BEAA42 /* VideoDownloader */,
@@ -186,11 +195,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB4BAC81B453901003A13F4 /* Default@2x.png in Resources */,
 				FAB6A854152E560F00BEAA42 /* InfoPlist.strings in Resources */,
 				FAB6A860152E560F00BEAA42 /* ViewController.xib in Resources */,
 				FA6F425C1530808C00E98B14 /* VideoCell.xib in Resources */,
 				FADC81CA1606788F00F7DCBD /* Icon@2x.png in Resources */,
+				DDB4BAC71B453901003A13F4 /* Default.png in Resources */,
 				FADC81CD1606789800F7DCBD /* Icon.png in Resources */,
+				DDB4BAC61B453901003A13F4 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

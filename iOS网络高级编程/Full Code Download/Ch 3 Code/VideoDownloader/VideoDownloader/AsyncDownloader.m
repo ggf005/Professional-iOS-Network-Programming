@@ -197,4 +197,9 @@
      object:nil 
      userInfo:nil];
 }
+
+-(void)dealloc{
+
+}
+
 @end
