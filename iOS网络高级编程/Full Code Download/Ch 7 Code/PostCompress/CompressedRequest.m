@@ -69,7 +69,7 @@
     
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"xml"];  
     NSData *myData = [NSData dataWithContentsOfFile:filePath];
-    //NSLog(@"Initial data size = %d", [myData length]);
+    NSLog(@"Initial data size = %d", [myData length]);
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:
                                     [NSURL URLWithString:urlString]];
     [request setHTTPMethod:@"POST"];
@@ -81,7 +81,7 @@
     if (self.compressRequest) {
         [request addValue:@"gzip" forHTTPHeaderField:@"Content-Encoding"];
         NSData *compressed = [self compressNSData:myData];
-        //NSLog(@"Compressed data size = %d", [compressed length]);
+        NSLog(@"Compressed data size = %d", [compressed length]);
         [request setHTTPBody:compressed];
         reqSize = [compressed length];
     } else {
@@ -101,8 +101,8 @@
         errorOccurred = NO;
         // got a good response
         // uncomment below if you want a trace of the bytes returned
-        //NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-        //NSLog(@"Received data = %@", responseString);
+        NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+        NSLog(@"Received data = %@", responseString);
     } else {
         errorOccurred = YES;
         
